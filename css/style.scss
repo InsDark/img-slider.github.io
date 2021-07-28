@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.slider{
+    display: flex;
+    border: .5rem solid blue;
+    margin: 0 auto;
+    width: 60%;
+    height: 70vh;
+    .img-slider{
+        background-image: url(../img/img-1.jpg);
+        height: auto;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    i{
+        display: flex;
+        position: relative;
+        align-items: center;
+        color: blue;
+        background-color: seagreen;
+        font-size: 2rem;
+        &:hover{
+            color: seagreen;
+            cursor: pointer;
+            background-color: blue;
+        }
+    }
+}
