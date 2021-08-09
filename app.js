@@ -1,5 +1,5 @@
 let img = ['img-1.jpg', 'img-2.jpg', 'img-3.jpg', 'img-4.jpg', ]
-let imgBg = document.querySelector('img')
+let imgBg = document.querySelector('.img-slider')
 const add = document.querySelector('.fa-angle-right')
 const less = document.querySelector('.fa-angle-left')
 let counter = 0;
